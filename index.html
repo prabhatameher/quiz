@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY Quiz</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<h1>This is the best Quiz on Internet</h1>
+
+	<form id="quiz" name="quiz">
+		<p>What is the capital of India ?</p>
+		<input id="textbox" type="text" name="question1">
+
+		
+		<p>What is the capital of Odisha ? </p>
+		<input id="mc" type="radio" name="question2" value="Bhubaneswar">Bhubaneswar<br>
+		<input id="mc" type="radio" name="question2" value="Cuttack">Cuttack<br>
+
+		
+		<p>What is the capital of NewYork ? </p>
+		<input id="mc" type="radio" name="question3" value="Albany">Albany<br>
+		<input id="mc" type="radio" name="question3" value="All benys">All benys<br>
+		<br>
+		<input id="button" type="button" value="i'm Finished !" onclick="check();">
+	</form>
+
+		<div id="after_submit">
+			<p id="message"></p>
+			<p id="number_correct"></p>
+			<img id="picture">
+		</div>
+
+
+
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
